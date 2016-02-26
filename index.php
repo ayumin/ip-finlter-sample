@@ -1,9 +1,14 @@
+
+<?
+  $ipAddress = $_SERVER["REMOTE_ADDR"];
+?>
+
 <html>
  <head>
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World</p>'; ?> 
+ <? echo '<p>Hello World from </p>' + $ipAddress; ?> 
  </body>
 </html>
 
