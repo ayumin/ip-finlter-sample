@@ -1,8 +1,9 @@
-<?
 <html>
-  <body>
-    <h1>Hi</h1>
-  <body>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php echo '<p>Hello World</p>'; ?> 
+ </body>
 </html>
-?>
 
